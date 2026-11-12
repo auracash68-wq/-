@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Hisab Khata</string>
+    <string name="brand_hisab">HISAB</string>
+    <string name="brand_khata">KHATA</string>
+    <string name="brand_subtitle">Smart Expense Tracker</string>
+    <string name="splash_tagline_track">Track</string>
+    <string name="splash_tagline_analyze">Analyze</string>
+    <string name="splash_tagline_save">Save</string>
+    <string name="splash_loading">Loading… Please Wait</string>
+    <string name="home_total_spent">Total Spent</string>
+    <string name="home_todays_expenses">Today’s Expenses</string>
+    <string name="home_view_all">View All</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_settings">Settings</string>
+    <string name="analytics_title">Analytics</string>
+    <string name="filter_this_month">This Month</string>
+    <string name="filter_last_month">Last Month</string>
+    <string name="filter_this_year">This Year</string>
+    <string name="btn_download_pdf">Download PDF Report</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_language_title">Language</string>
+    <string name="settings_language_desc">Choose your language</string>
+    <string name="settings_backup_title">Data Backup</string>
+    <string name="settings_backup_desc">Backup your data safely</string>
+    <string name="settings_clear_title">Clear All Data</string>
+    <string name="settings_clear_desc">Delete all your data</string>
+</resources>

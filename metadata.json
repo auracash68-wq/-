@@ -1,0 +1,6 @@
+{
+  "name": "Hisab Khata",
+  "description": "Smart Expense Tracker with voice entry, visual analytics, PDF reports, and local backup.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
