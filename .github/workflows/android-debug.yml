@@ -25,11 +25,12 @@ jobs:
 
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
+        with:
+          packages: 'cmdline-tools;latest platform-tools platforms;android-36 build-tools;36.0.0'
 
-      - name: Install Android SDK Platform and Build-Tools
+      - name: Accept Android SDK Licenses
         run: |
           yes | sdkmanager --licenses || true
-          sdkmanager "platform-tools" "platforms;android-36" "build-tools;36.0.0"
 
       - name: Ensure Standard Android debug.keystore is Available
         run: |
@@ -53,7 +54,7 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Build Debug APK with Gradle Wrapper
-        run: ./gradlew :app:assembleDebug --no-daemon --stacktrace
+        run: ./gradlew assembleDebug --no-daemon --stacktrace
 
       - name: Upload Debug APK Artifact
         uses: actions/upload-artifact@v4
